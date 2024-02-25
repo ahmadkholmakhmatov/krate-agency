@@ -1,0 +1,503 @@
+.contact {
+    color: #FFFFFF;
+
+    .section-title {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 64px;
+        border-radius: 25px;
+        border: 2px solid #383838;
+        overflow: hidden;
+
+        .first-title {
+            font-family: Inter;
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 46px;
+            letter-spacing: -2px;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+        }
+
+        .second-title {
+            padding: 24px 250px 24px 56px;
+            //styleName: Heading/06;
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 34px;
+            letter-spacing: -0.6000000238418579px;
+            text-align: left;
+
+            color: #FFFFFF;
+        }
+
+        .border-right {
+            border-right: 2px solid #383838;
+        }
+    }
+
+    .offices {
+        margin-bottom: 80px;
+
+        .image {
+            padding: 0 16px 0 12px;
+
+            img {
+                width: 733px;
+                height: 500px;
+                border-radius: 24px;
+                object-fit: cover;
+            }
+        }
+
+        .main-info {
+            padding: 51px 0 51px 31px;
+
+            .header {
+                .title {
+                    font-family: Inter;
+                    font-size: 42px;
+                    font-weight: 600;
+                    line-height: 46px;
+                    letter-spacing: -2px;
+                    text-align: left;
+                    margin-bottom: 34px;
+                }
+            }
+
+            .body {
+                display: flex;
+                flex-wrap: wrap;
+
+                .element {
+                    flex-basis: 50%;
+                    margin-bottom: 24px;
+
+                    .country {
+                        //styleName: Text/18px/Semibold;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        margin-bottom: 8px;
+                    }
+
+                    .address {
+                        //styleName: Text/16px/Regular;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #9D9FA1;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto 208px;
+
+        .form {
+            border: none;
+            width: 680px;
+            height: 560px;
+            background-color: black;
+
+            .title {
+                //styleName: Heading/04;
+                font-family: Inter;
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 46px;
+                letter-spacing: -2px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 40px;
+            }
+
+            .form-control,
+            .form-select:focus {
+                border: none;
+                box-shadow: none;
+            }
+
+            .name-inputs {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+            }
+
+            .input {
+                background-color: black;
+                display: inline-block;
+                border: none;
+                border-bottom: 1px solid #282828;
+                border-radius: 0;
+                width: 50%;
+                margin-bottom: 32px;
+                ;
+            }
+
+            .input::placeholder {
+                color: #9D9FA1;
+                //styleName: Text/16px/Regular;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+            .email {
+                background-color: black;
+                display: inline-block;
+                border: none;
+                border-bottom: 1px solid #282828;
+                border-radius: 0;
+                width: 100%;
+                margin-bottom: 32px;
+            }
+
+            .email::placeholder {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #9D9FA1;
+
+            }
+
+            .email:focus,
+            .input:focus {
+                color: #cacaca;
+            }
+
+            .select {
+                border: none;
+                border-bottom: 1px solid #282828;
+                border-radius: 0;
+                color: #9D9FA1;
+
+                background: #000000 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="%239D9FA1" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"/></svg>') right 0.5rem center/8px 10px no-repeat;
+                margin-bottom: 32px;
+
+                option {
+                    //styleName: Text/16px/Regular;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    text-align: left;
+
+                }
+            }
+
+            .form-floating {
+                border-bottom: 1px solid #282828;
+                margin-bottom: 48px;
+
+                .text-area {
+                    background-color: #000000;
+                }
+
+                label {
+                    //styleName: Text/16px/Regular;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #9D9FA1;
+                }
+
+                label::after {
+                    background-color: #000000;
+                }
+
+                .text-area:focus {
+                    color: #cacaca;
+                }
+            }
+
+            .form-button {
+                border: none;
+                padding: 12px 28px 12px 28px;
+                border-radius: 39px;
+
+                //styleName: Button/Medium;
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 32px;
+                letter-spacing: -0.20000000298023224px;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 32px;
+            }
+
+        }
+
+        .form-tagline {
+            //styleName: Text/14px/Semibold;
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #9D9FA1;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        color: #FFFFFF;
+        padding: 0 16px;
+
+        .section-title {
+            padding: 0px;
+            margin: 0px;
+            margin-bottom: 32px;
+            border-radius: 25px;
+            border: 2px solid #383838;
+            overflow: hidden;
+
+            .first-title {
+                //styleName: Text/22px/Semibold;
+                font-family: Inter;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 38px;
+                letter-spacing: 0px;
+                justify-content: flex-start;
+                color: #FFFFFF;
+                border: none;
+                padding: 16px;
+            }
+
+            .second-title {
+                //styleName: Text/14px/Semibold;
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #FFFFFF;
+                padding: 16px;
+            }
+
+            .border-right {
+                border-bottom: 2px solid #383838;
+            }
+        }
+
+        .offices {
+            margin-bottom: 80px;
+
+            .image {
+                padding: 0 12px;
+                margin-bottom: 48px;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                    border-radius: 24px;
+                    object-fit: cover;
+                }
+            }
+
+            .main-info {
+                padding: 0 12px;
+
+                .header {
+                    .title {
+                        //styleName: Heading/05;
+                        font-family: Inter;
+                        font-size: 34px;
+                        font-weight: 600;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                        text-align: left;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .body {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .element {
+                        flex-basis: 50%;
+                        margin-bottom: 24px;
+
+                        .country {
+                            //styleName: Text/18px/Semibold;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            margin-bottom: 8px;
+                        }
+
+                        .address {
+                            //styleName: Text/16px/Regular;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px auto 140px;
+          
+
+            .form {
+                border: none;
+                width: 680px;
+                height: 560px;
+                background-color: black;
+                padding: 0;
+
+                .title {
+                    font-size: 34px;
+                    margin-bottom: 40px;
+                }
+
+                .name-inputs {
+                    display: block;
+
+                    .input {
+                        background-color: black;
+                        display: block;
+                        border: none;
+                        border-bottom: 1px solid #282828;
+                        border-radius: 0;
+                        flex-basis: 100%;
+                        width: 100%;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .email {
+                    background-color: black;
+                    display: inline-block;
+                    border: none;
+                    border-bottom: 1px solid #282828;
+                    border-radius: 0;
+                    width: 100%;
+                    margin-bottom: 32px;
+                }
+
+                .email::placeholder {
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #9D9FA1;
+
+                }
+
+                .email:focus,
+                .input:focus {
+                    color: #cacaca;
+                }
+
+                .select {
+                    border: none;
+                    border-bottom: 1px solid #282828;
+                    border-radius: 0;
+                    color: #9D9FA1;
+
+                    background: #000000 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="%239D9FA1" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"/></svg>') right 0.5rem center/8px 10px no-repeat;
+                    margin-bottom: 32px;
+
+                    option {
+                        //styleName: Text/16px/Regular;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+
+                    }
+                }
+
+                .form-floating {
+                    border-bottom: 1px solid #282828;
+                    margin-bottom: 48px;
+
+                    .text-area {
+                        background-color: #000000;
+                    }
+
+                    label {
+                        //styleName: Text/16px/Regular;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #9D9FA1;
+                    }
+
+                    label::after {
+                        background-color: #000000;
+                    }
+
+                    .text-area:focus {
+                        color: #cacaca;
+                    }
+                }
+
+                .form-button {
+                    border: none;
+                    padding: 12px 28px 12px 28px;
+                    border-radius: 39px;
+
+                    //styleName: Button/Medium;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 32px;
+                    letter-spacing: -0.20000000298023224px;
+                    text-align: center;
+                    width: 100%;
+                    margin-bottom: 32px;
+                }
+
+            }
+        }
+
+    }
+}

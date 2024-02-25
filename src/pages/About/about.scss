@@ -1,0 +1,486 @@
+.about {
+    color: #ffffff;
+
+
+    .top {
+        margin: 80px auto;
+
+        .title {
+            //styleName: Display/03;
+            font-family: Inter;
+            font-size: 98px;
+            font-weight: 600;
+            line-height: 104px;
+            letter-spacing: -4.5px;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .image {
+            padding: 0px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 24px;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .middle {
+        padding: 80px 12px 120px;
+
+        .image {
+            padding: 0 16px 0 0;
+
+            img {
+                width: 624px;
+                height: 432px;
+                object-fit: cover;
+                border-radius: 40px;
+            }
+        }
+
+        .main-info {
+            padding: 0 0 0 16px;
+
+            .header {
+                margin-bottom: 40px;
+
+                .title {
+                    //styleName: Heading/04;
+                    font-family: Inter;
+                    font-size: 42px;
+                    font-weight: 600;
+                    line-height: 46px;
+                    letter-spacing: -2px;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+
+                .tagline {
+                    //styleName: Text/18px/Regular;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #9D9FA1;
+                }
+            }
+
+
+            .body {
+                display: flex;
+                flex-wrap: wrap;
+
+                .element {
+                    flex-basis: 50%;
+                    margin-bottom: 32px;
+
+                    .numbers {
+                        //styleName: Heading/05;
+                        font-family: Inter;
+                        font-size: 34px;
+                        font-weight: 600;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                        text-align: left;
+                        color: #DDDDDD;
+                        margin-bottom: 4px;
+                    }
+
+                    .title {
+                        //styleName: Text/16px/Semibold;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        margin-bottom: 8px;
+                    }
+
+                    .info {
+                        //styleName: Text/14px/Regular;
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #9D9FA1;
+                    }
+                }
+            }
+        }
+        .image-bottom{
+            display: none;
+        }
+    }
+
+    .ceo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 96px 0;
+
+        .ceo-card {
+            display: flex;
+            flex-direction: column;
+            width: 624px;
+            height: 368px;
+            gap: 32px;
+
+            .header {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                .ceo-pic {
+                    img {
+                        width: 59px;
+                        height: 59px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .info {
+                .name {
+                    //styleName: Text/18px/Semibold;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                }
+
+                .duty {
+                    //styleName: Text/18px/Semibold;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #9D9FA1;
+                }
+            }
+
+
+            .quote {
+                //styleName: Heading/06;
+                font-family: Inter;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 34px;
+                letter-spacing: -0.6px;
+                text-align: left;
+            }
+
+        }
+    }
+
+    .team {
+        padding-top: 80px;
+
+        .team-info-container {
+            padding: 0 180px 0 12px;
+
+            .team-info {
+                color: #FFF;
+                font-feature-settings: 'clig'off, 'liga'off;
+
+                /* Heading/04 */
+                font-family: Inter;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 46px;
+                /* 109.524% */
+                letter-spacing: -2px;
+
+            }
+        }
+
+        .cards {
+            padding: 0px;
+
+
+            .card {
+                margin: 0 1rem 2rem 1rem;
+                border-radius: 24px;
+                border: 2px solid var(--Black-700, #282828);
+                background: var(--Black-900, #000);
+                overflow: hidden;
+
+                .card-body {
+                    color: #fff;
+                    font-feature-settings: "clig"off, "liga"off;
+                    padding: 16px;
+
+                    /* Heading/06 */
+                    .card-text {
+                        font-size: 16px;
+                    }
+
+                    .card-text-small {
+                        color: #9D9FA1;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        padding: 16px;
+        color: #ffffff;
+
+
+        .top {
+            margin: 16px auto 40px;
+
+            .title {
+                font-family: Inter;
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 46px;
+                letter-spacing: -2px;
+                text-align: center;
+
+                margin-bottom: 32px;
+            }
+
+            .image {
+                padding: 0px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 24px;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .middle {
+            padding: 40px 0;
+
+            .image {
+                display: none;
+
+                img {
+                    width: 624px;
+                    height: 432px;
+                    object-fit: cover;
+                    border-radius: 40px;
+                }
+            }
+
+            .main-info {
+                padding: 0 16px ;
+                .header {
+                    margin-bottom: 40px;
+                    border-bottom: 1px solid #D0D5DD;
+
+                    .title {
+                        //styleName: Heading/05;
+                        font-family: Inter;
+                        font-size: 34px;
+                        font-weight: 600;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                        text-align: left;                        
+                        margin-bottom: 12px;
+                    }
+
+                    .tagline {
+                        //styleName: Text/18px/Regular;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        letter-spacing: 0px;
+                        text-align: left; 
+                        margin-bottom: 24px;                       
+                    }
+                }
+
+                .body {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .element {
+                        flex-basis: 100%;
+                        margin-bottom: 24px;
+
+                        .numbers {
+                            font-family: Inter;
+                            font-size: 34px;
+                            font-weight: 600;
+                            line-height: 40px;
+                            letter-spacing: -1px;
+                            text-align: left;
+                            color: #FFFFFF;                            
+                            margin-bottom: 4px;
+                        }
+
+                        .title {
+                            //styleName: Text/16px/Semibold;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #FFFFFF;                            
+                            margin-bottom: 8px;
+                        }
+
+                        .info {
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: 0px;
+                            text-align: left;                            
+                            color: #9D9FA1;
+                        }
+                    }
+                }
+            }
+            .image-bottom{
+                display: block;
+                margin-top: 16px;
+                img {
+                    width: 100%;
+                    height: 270px;
+                    object-fit: cover;
+                    border-radius: 40px;
+                }
+            }
+            
+        }
+
+        .ceo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 56px 0;
+
+            .ceo-card {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+
+                .header {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    .ceo-pic {
+                        img {
+                            width: 59px;
+                            height: 59px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .info {
+                    .name {
+                        //styleName: Text/16px/Semibold;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;                        
+                    }
+
+                    .duty {
+                        //styleName: Text/16px/Semibold;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;                        
+                        color: #9D9FA1;
+                    }
+                }
+
+
+                .quote {
+                    //styleName: Heading/07;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    letter-spacing: 0px;                    
+                    text-align: left;
+                }
+
+            }
+        }
+
+        .team {
+            padding: 0 12px;
+            padding-top: 40px;
+            margin-bottom: -12px;
+
+            .team-info-container {
+                padding:0 16px;
+
+                .team-info {
+                    //styleName: Heading/06;
+                    font-family: Inter;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 34px;
+                    letter-spacing: -0.6px;
+                    text-align: left; 
+                    margin-bottom: 32px;                   
+                }
+            }
+
+            .cards {
+                padding:0px;
+                .card {
+                    margin: 0 auto 32px;
+                    border-radius: 24px;
+                    border: 2px solid var(--Black-700, #282828);
+                    background: var(--Black-900, #000);
+                    overflow: hidden;
+
+                    .card-body {
+                        color: #fff;
+                        font-feature-settings: "clig"off, "liga"off;
+                        padding: 16px;
+
+                        /* Heading/06 */
+                        .card-text {
+                            font-size: 18px;
+                        }
+
+                        .card-text-small {
+                            color: #9D9FA1;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

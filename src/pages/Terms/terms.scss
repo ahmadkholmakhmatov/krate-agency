@@ -1,0 +1,186 @@
+.terms {
+    color: #FFFFFF;
+
+    .title {
+        margin: 0 0 72px 0;
+        border-bottom: 1px solid #282828;
+        margin-bottom: 40px;
+
+        h1 {
+            //styleName: Heading/02;
+            font-family: Inter;
+            font-size: 63px;
+            font-weight: 600;
+            line-height: 73px;
+            letter-spacing: -2.5px;
+            text-align: left;
+        }
+
+        .tagline {
+            margin-top: 24px;
+            margin-bottom: 32px;
+
+            .variant {
+                //styleName: Text/16px/Semibold;
+                display: inline;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+                letter-spacing: 0px;
+                padding: 4px 16px;
+                border-radius: 100px;
+                border: 1px solid #282828;
+                margin-right: 16px;
+            }
+
+            p {
+                display: inline;
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #EAECF0;
+            }
+        }
+    }
+
+    .first-text {
+        margin: 0 0 72px 0;
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #BDBDBD;
+
+    }
+
+    .text {
+        margin-bottom: 72px;
+
+        h1 {
+            //styleName: Heading/05;
+            font-family: Inter;
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 40px;
+            letter-spacing: -1px;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        p {
+            //styleName: Text/22px/Regular;
+            font-family: Inter;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 38px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #BDBDBD;
+        }
+    }
+    .last{
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .terms {
+        padding: 0 16px;
+        color: #FFFFFF;
+    
+        .title {
+            margin: 0 0 72px 0;
+            border-bottom: 1px solid #282828;
+            margin-bottom: 40px;
+    
+            h1 {
+                //styleName: Heading/02;
+                font-family: Inter;
+                font-size: 63px;
+                font-weight: 600;
+                line-height: 73px;
+                letter-spacing: -2.5px;
+                text-align: left;
+                padding: 0;
+            }
+    
+            .tagline {
+                padding: 0;
+                margin-top: 24px;
+                margin-bottom: 32px;
+    
+                .variant {
+                    //styleName: Text/16px/Semibold;
+                    display: inline;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    padding: 4px 16px;
+                    border-radius: 100px;
+                    border: 1px solid #282828;
+                    margin-right: 16px;
+                }
+    
+                p {
+                    display: inline;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #EAECF0;
+                }
+            }
+        }
+    
+        .first-text {
+            margin: 0 0 40px 0;
+            font-family: Inter;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 38px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #BDBDBD;
+    
+        }
+    
+        .text {
+            margin-bottom: 40px;
+    
+            h1 {
+                //styleName: Heading/05;
+                font-family: Inter;
+                font-size: 34px;
+                font-weight: 600;
+                line-height: 40px;
+                letter-spacing: -1px;
+                text-align: left;
+                margin-bottom: 24px;
+            }
+    
+            p {
+                //styleName: Text/22px/Regular;
+                font-family: Inter;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 38px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #BDBDBD;
+            }
+        }
+        .last{
+            margin-bottom: 62px;
+        }
+    }  
+}

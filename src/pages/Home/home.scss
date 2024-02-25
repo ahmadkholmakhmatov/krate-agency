@@ -1,0 +1,381 @@
+.home {
+    .title-company {
+        color: var(--White, #fff);
+        font-feature-settings: "clig"off, "liga"off;
+        /* Display/01 */
+        font-family: Inter;
+        font-size: 140px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144px;
+        /* 102.857% */
+        letter-spacing: -7.5px;
+        margin: 16px auto 72px;
+        text-align: center;
+    }
+
+    .main_Img {
+        margin-bottom: 2rem;
+        padding: 0px;
+    }
+
+    .clients {
+        padding: 120px 0px;
+
+        .paragraph {
+            color: #f2f2f2;
+            font-feature-settings: "clig"off, "liga"off;
+            /* Heading/05 */
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            /* 117.647% */
+            letter-spacing: -1px;
+            padding: 0 50px 0 0px;
+        }
+
+        .companies {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+
+            img {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .service {
+        color: #fff;
+        font-feature-settings: "clig"off, "liga"off;
+        /* Text/22px/Semibold */
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        /* 172.727% */
+        padding: 24px 0px;
+
+        .bi {
+            -webkit-text-stroke: 1px;
+        }
+    }
+
+    .accordion-container {
+        padding: 0px;
+        margin: 16px auto 120px;
+
+        .accordion-item {
+            background-color: black;
+            border: none;
+            border-bottom: 1px solid #282828;
+            color:  #fff;
+
+            .accordion-button {
+                background-color: transparent;
+                color: var(--White, #fff);
+                outline: none;
+                font-feature-settings: "clig"off, "liga"off;
+                /* Heading/05 */
+                font-family: Inter;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px;
+                /* 117.647% */
+                letter-spacing: -1px;
+                padding: 32px 0px;
+
+                img {
+                    margin-right: 32px;
+                }
+            }
+
+
+            .accordion-button:not(.collapsed) {
+                background-color: black;
+                color: white;
+            }
+
+            .accordion-button::after {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.7144 8.33294C20.7144 7.93845 20.3946 7.61865 20.0001 7.61865C19.6056 7.61865 19.2858 7.93845 19.2858 8.33294V19.2853H8.33343C7.93894 19.2853 7.61914 19.6051 7.61914 19.9996C7.61914 20.3941 7.93894 20.7139 8.33343 20.7139H19.2858V31.6663C19.2858 32.0608 19.6056 32.3806 20.0001 32.3806C20.3946 32.3806 20.7144 32.0608 20.7144 31.6663V20.7139H31.6668C32.0612 20.7139 32.381 20.3941 32.381 19.9996C32.381 19.6051 32.0612 19.2853 31.6668 19.2853H20.7144V8.33294Z' fill='%239D9FA2'/%3E%3C/svg%3E%0A");
+            }
+
+            .accordion-button:not(.collapsed)::after {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%239D9FA2' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+            }
+        }
+    }
+
+    .works {
+        .cards {
+            padding: 16px;
+
+            .card {
+                border-radius: 24px;
+                border: 2px solid var(--Black-700, #282828);
+                background: var(--Black-900, #000);
+                overflow: hidden;
+            }
+
+            .card-body {
+                color: var(--White, #fff);
+                font-feature-settings: "clig"off, "liga"off;
+                padding: 1.5rem;
+                /* Heading/06 */
+                font-family: Inter;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 34px;
+                /* 121.429% */
+                letter-spacing: -0.6px;
+                padding: 40px;
+            }
+        }
+    }
+
+    .team {
+        .team-info-container {
+            padding: 0 180px 0 12px;
+
+            .team-info {
+                color: #FFF;
+                font-feature-settings: 'clig'off, 'liga'off;
+
+                /* Heading/04 */
+                font-family: Inter;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 46px;
+                /* 109.524% */
+                letter-spacing: -2px;
+
+            }
+        }
+
+        .cards {
+            padding: 0px;
+
+
+            .card {
+                margin: 0 1rem 2rem 1rem;
+                border-radius: 24px;
+                border: 2px solid var(--Black-700, #282828);
+                background: var(--Black-900, #000);
+                overflow: hidden;
+
+                .card-body {
+                    color: #fff;
+                    font-feature-settings: "clig"off, "liga"off;
+                    padding: 16px;
+
+                    /* Heading/06 */
+                    .card-text {
+                        font-size: 16px;
+                    }
+
+                    .card-text-small {
+                        color: #9D9FA1;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        padding: 0 16px;
+
+        .title-company {
+            //styleName: Heading/03;
+            font-family: Inter;
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 63px;
+            letter-spacing: -1.5px;
+            text-align: left;
+            margin: 24px auto 32px;
+        }
+
+        .main_Img {
+            margin-bottom: 40px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .clients {
+            padding: 0px;
+
+            .paragraph {
+                color: #f2f2f2;
+                //styleName: Heading/07;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin-bottom: 40px;
+            }
+
+            .companies {
+                margin-bottom: 64px;
+
+                align-items: flex-start;
+            }
+        }
+
+        .service {
+            //styleName: Text/20px/Semibold;
+            font-family: Inter;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        .accordion-container {
+            padding: 0px;
+            margin: 16px auto 120px;
+
+            .accordion-item {
+                background-color: black;
+                border: none;
+                border-bottom: 1px solid var(--Black-700, #282828);
+                color: var(--White, #fff);
+                font-feature-settings: "clig"off, "liga"off;
+
+                .accordion-button {
+                    background-color: transparent;
+                    color: var(--White, #fff);
+                    outline: none;
+                    //styleName: Text/22px/Semibold;
+                    font-family: Inter;
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 38px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    padding: 32px 0px;
+                    display: block;
+
+
+                    img {
+                        display: block;
+                        margin-bottom: 16px;
+                    }
+                }
+
+
+                .accordion-button:not(.collapsed) {
+                    background-color: black;
+                    color: white;
+
+                }
+
+                .accordion-button::after {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.7144 8.33294C20.7144 7.93845 20.3946 7.61865 20.0001 7.61865C19.6056 7.61865 19.2858 7.93845 19.2858 8.33294V19.2853H8.33343C7.93894 19.2853 7.61914 19.6051 7.61914 19.9996C7.61914 20.3941 7.93894 20.7139 8.33343 20.7139H19.2858V31.6663C19.2858 32.0608 19.6056 32.3806 20.0001 32.3806C20.3946 32.3806 20.7144 32.0608 20.7144 31.6663V20.7139H31.6668C32.0612 20.7139 32.381 20.3941 32.381 19.9996C32.381 19.6051 32.0612 19.2853 31.6668 19.2853H20.7144V8.33294Z' fill='%239D9FA2'/%3E%3C/svg%3E%0A");
+                }
+
+                .accordion-button:not(.collapsed)::after {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%239D9FA2' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+                }
+
+                .accordion-button:focus {
+                    outline: 0 !important;
+                    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+                }
+            }
+        }
+
+        .works {
+            .cards {
+                padding: 12px;
+
+                .card {
+                    border-radius: 24px;
+                    border: 2px solid #282828;
+                    background: #000;
+                    overflow: hidden;
+                }
+
+                .card-body {
+                    color: #fff;
+                    padding: 24px;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 32px;
+                    text-align: left;
+                    padding: 40px;
+                }
+            }
+        }
+
+        .team {
+            padding: 12px;
+            .team-info-container {
+                padding: 0;
+
+                .team-info {
+                    color: #FFF;
+                    //styleName: Heading/06;
+                    font-family: Inter;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 34px;
+                    letter-spacing: -0.6px;
+                    text-align: left;
+                    margin-bottom: 32px;
+                }
+            }
+
+            .cards {
+                padding: 0px;
+
+                .card {
+                    margin: 0;
+                    margin-bottom: 32px;
+
+                    .card-body {
+                        color: #fff;
+                        padding: 16px;
+
+                        /* Heading/06 */
+                        .card-text {
+                            font-family: Inter;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            margin-bottom: 4px;
+                        }
+
+                        .card-text-small {
+                            //styleName: Text/16px/Semibold;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

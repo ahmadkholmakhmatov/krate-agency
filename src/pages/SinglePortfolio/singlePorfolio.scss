@@ -1,0 +1,292 @@
+.single-portfolio {
+    color: #FFFFFF;
+
+    .case-studies {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.2px;
+        text-align: left;
+        margin-bottom: 24px;
+
+        .bi {
+            -webkit-text-stroke: 1px;
+        }
+    }
+
+    .section-title {
+        padding: 0px;
+        margin: 0px;
+        border-radius: 25px;
+        border: 2px solid #383838;
+        overflow: hidden;
+
+        .border-right {
+            border-right: 2px solid #383838;
+        }
+
+        .first-title {
+            //styleName: Heading/04;
+            font-family: Inter;
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 46px;
+            letter-spacing: -2px;
+            text-align: left;
+            padding: 39px 80px;
+        }
+
+        .second-title {
+            //styleName: Text/18px/Semibold;
+            font-family: Inter;
+            font-size: 18px;
+            color: #BDBDBD;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding: 32px;
+        }
+
+        .third-title {
+            padding: 32px;
+
+            .elements {
+                display: flex;
+                flex-wrap: wrap;
+                //styleName: Text/16px/Semibold;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+                letter-spacing: 0px;
+                text-align: left;
+
+                .element {
+                    flex: 1;
+                    margin-bottom: 8px;
+                }
+
+                .element:nth-child(1),
+                .element:nth-child(2) {
+                    flex-basis: 50%;
+                }
+
+                .element:nth-child(3) {
+                    flex-basis: 100%;
+                }
+            }
+
+        }
+    }
+
+    .single-portfolio-info {
+        margin-top: 40px;
+
+        img {
+            border-radius: 24px;
+            width: 100%;
+        }
+
+        .top {
+            margin-bottom: 80px;
+
+            .top-body {
+                margin-top: 40px;
+
+                .first-text {
+                    //styleName: Heading/05;
+                    font-family: Inter;
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: -1px;
+                    text-align: left;
+                }
+
+                .second-text {
+                    //styleName: Text/20px/Regular;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #BDBDBD;
+                }
+            }
+        }
+
+        .middle {
+            margin-bottom: 80px;
+
+            .middle-body {
+                .text {
+                    margin-top: 40px;
+                    //styleName: Text/20px/Regular;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #DDDDDD;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .single-portfolio {
+        color: #FFFFFF;
+        padding: 0 16px;
+
+        .case-studies {
+            //styleName: Button/XSmall;
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+
+            margin: 40px auto 16px;
+
+            .bi {
+                -webkit-text-stroke: 1px;
+            }
+        }
+
+        .section-title {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 25px;
+            border: 2px solid #383838;
+            overflow: hidden;
+
+            .first-title {
+                //styleName: Heading/04;
+                //styleName: Text/22px/Semibold;
+                font-family: Inter;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 38px;
+                letter-spacing: 0px;
+                text-align: left;
+                padding: 16px;
+                border: none;
+            }
+
+
+            .second-title {
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #FFFFFF;
+                padding: 16px;
+                border: none;
+            }
+
+            .border-right {
+                border-bottom: 2px solid #383838;
+            }
+
+
+            .third-title {
+                padding: 16px;
+
+                .elements {
+                    display: flex;
+                    flex-wrap: wrap;
+                    //styleName: Text/16px/Semibold;
+                    //styleName: Text/14px/Semibold;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    .element {
+                        flex: 1;
+                        margin-bottom: 8px;
+                    }
+
+                    .element:nth-child(1),
+                    .element:nth-child(2) {
+                        flex-basis: 50%;
+                    }
+
+                    .element:nth-child(3) {
+                        flex-basis: 100%;
+                    }
+                }
+
+            }
+        }
+
+        .single-portfolio-info {
+            margin-top: 40px;
+
+            img {
+                border-radius: 24px;
+                height: 400px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .top {
+                margin-bottom: 48px;
+
+                .top-body {
+                    margin-top: 40px;
+
+                    .first-text {
+                        //styleName: Heading/05;
+                        //styleName: Heading/06;
+                        font-family: Inter;
+                        font-size: 28px;
+                        font-weight: 600;
+                        line-height: 34px;
+                        letter-spacing: -0.6000000238418579px;
+                        text-align: left;
+                        margin-bottom: 16px;
+                    }
+
+                    .second-text {
+                        //styleName: Text/20px/Regular;
+                        //styleName: Text/16px/Regular;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .middle {
+                margin-bottom: 48px;
+
+                .middle-body {
+                    .text {
+                        margin-top: 40px;
+                        //styleName: Text/20px/Regular;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 35px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #DDDDDD;
+                    }
+                }
+            }
+        }
+    }
+}

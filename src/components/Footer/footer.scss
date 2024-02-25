@@ -1,0 +1,126 @@
+.footer {
+    font-family: Inter;
+    border-radius: 25px;
+    border: 2px solid var(--Black-700, #383838);
+    overflow: hidden;
+    margin-bottom: 80px;
+
+    .footer-item {
+        padding: 40px 40px;
+        overflow: hidden;
+        text-align: center;
+
+        .footer-email {
+
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: -0.6px;
+            color: #bdbdbd;
+        }
+
+        .footer-email:hover {
+
+            color: #f9f9f9;
+        }
+    }
+
+    .border-right {
+        border-right: 2px solid #383838;
+    }
+
+    .top-row {
+        border-bottom: 2px solid var(--Black-700, #383838);
+    }
+
+
+    .socials {
+        gap: 16px;
+
+        .bi {
+            font-size: 26px;
+        }
+    }
+
+    .nav-link {
+        color: #bdbdbd;
+        margin-left: 8px;
+    }
+
+    .nav-link:hover {
+        color: #f9f9f9;
+    }
+
+    .nav-link:active {
+        color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        margin-bottom: 40px;
+
+        .border-right {
+            border-bottom: 2px solid #383838;
+        }
+
+        .footer-item {
+            padding: 24px 24px;
+            overflow: hidden;
+            text-align: center;
+
+            .footer-email {
+                margin: -8px auto;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                letter-spacing: -0.6px;
+                color: #bdbdbd;
+            }
+
+            .footer-email:hover {
+
+                color: #f9f9f9;
+            }
+
+        }
+
+        .info {
+            padding: 16px;
+        }
+
+        .socials {
+            padding: 16px;
+        }
+
+        .pages {
+            padding: 16px;
+        }
+
+        .top-row {
+            border-bottom: 2px solid var(--Black-700, #383838);
+        }
+
+
+        .socials {
+            gap: 16px;
+
+            .bi {
+                font-size: 26px;
+            }
+        }
+
+        .nav-link {
+            color: #bdbdbd;
+            margin-left: 8px;
+        }
+
+        .nav-link:hover {
+            color: #f9f9f9;
+        }
+
+        .nav-link:active {
+            color: #fff !important;
+        }
+    }
+}
