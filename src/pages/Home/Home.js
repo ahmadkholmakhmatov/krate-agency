@@ -67,7 +67,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="home container-fluid-md container-lg">
+    <div className="container-fluid-md container-lg home">
       <NavbarMain />
       <h1 className="title-company" data-aos="fade-left">
         Krate design and motion studio
@@ -265,7 +265,7 @@ const Home = () => {
       <div className="row works">
         {works.map((item) => (
           <div className="col-md-12 col-lg-6 cards" key={item.id} data-aos="flip-down">
-            <div className="card" key={item.id}>
+            <div className="work-card">
               <img src={item.image} className="card-img-top" alt="card_image" />
               <div className="card-body">
                 <p className="card-text">{item.title}</p>
@@ -292,7 +292,7 @@ const Home = () => {
         </div>
 
         {team.map((item) => (
-          <div className="col-sm-3 cards" key={item.id} data-aos="flip-down">
+          <div className=" col-md-12 col-lg-3 cards" key={item.id} data-aos="flip-down">
             <div className="card">
               <img src={item.image} className="img-fluid" alt="card_image" />
               <div className="card-body">

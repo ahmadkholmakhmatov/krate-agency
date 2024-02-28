@@ -73,7 +73,7 @@
             background-color: black;
             border: none;
             border-bottom: 1px solid #282828;
-            color:  #fff;
+            color: #fff;
 
             .accordion-button {
                 background-color: transparent;
@@ -108,6 +108,10 @@
             .accordion-button:not(.collapsed)::after {
                 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%239D9FA2' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
             }
+            .accordion-button:focus {
+                outline: 0 !important;
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+            }
         }
     }
 
@@ -115,7 +119,7 @@
         .cards {
             padding: 16px;
 
-            .card {
+            .work-card {
                 border-radius: 24px;
                 border: 2px solid var(--Black-700, #282828);
                 background: var(--Black-900, #000);
@@ -161,8 +165,6 @@
 
         .cards {
             padding: 0px;
-
-
             .card {
                 margin: 0 1rem 2rem 1rem;
                 border-radius: 24px;
@@ -193,7 +195,7 @@
 @media only screen and (max-width: 768px) {
     .home {
         padding: 0 16px;
-
+        overflow:hidden;
         .title-company {
             //styleName: Heading/03;
             font-family: Inter;
@@ -216,6 +218,7 @@
 
         .clients {
             padding: 0px;
+
 
             .paragraph {
                 color: #f2f2f2;
@@ -301,10 +304,13 @@
         }
 
         .works {
-            .cards {
-                padding: 12px;
+            margin: 0;
 
-                .card {
+            .cards {
+                padding: 16px 0px;
+                margin: 0px;
+
+                .work-card {
                     border-radius: 24px;
                     border: 2px solid #282828;
                     background: #000;
@@ -319,19 +325,19 @@
                     font-weight: 600;
                     line-height: 32px;
                     text-align: left;
-                    padding: 40px;
                 }
             }
         }
 
+
         .team {
-            padding: 12px;
+            padding: 0;
+            margin: 0px auto;
+
             .team-info-container {
                 padding: 0;
 
                 .team-info {
-                    color: #FFF;
-                    //styleName: Heading/06;
                     font-family: Inter;
                     font-size: 28px;
                     font-weight: 600;
@@ -343,35 +349,28 @@
             }
 
             .cards {
-                padding: 0px;
+                padding: 0;
 
                 .card {
-                    margin: 0;
-                    margin-bottom: 32px;
+                    margin: 16px auto;
+                    border-radius: 24px;
+                    border: 2px solid #282828;
+                    background: #000;
+                    overflow: hidden;
 
                     .card-body {
                         color: #fff;
+                        font-feature-settings: "clig"off, "liga"off;
                         padding: 16px;
 
                         /* Heading/06 */
                         .card-text {
-                            font-family: Inter;
                             font-size: 18px;
-                            font-weight: 600;
-                            line-height: 30px;
-                            letter-spacing: 0px;
-                            text-align: left;
-                            margin-bottom: 4px;
                         }
 
                         .card-text-small {
-                            //styleName: Text/16px/Semibold;
-                            font-family: Inter;
+                            color: #9D9FA1;
                             font-size: 16px;
-                            font-weight: 600;
-                            line-height: 26px;
-                            letter-spacing: 0px;
-                            text-align: left;
                         }
                     }
                 }
